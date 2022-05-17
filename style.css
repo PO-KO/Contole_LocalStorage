@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 600px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: #2196f3;
+  overflow: hidden;
+  padding: 10px;
+}
+
+#the-input {
+  padding: 10px;
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+
+#the-input:focus {
+  outline: none;
+}
+
+.btns span {
+  padding: 7px 15px;
+  margin: 0 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.btns span.check {
+  background-color: green;
+}
+.btns span.add {
+  background-color: tomato;
+}
+.btns span.delete {
+  background-color: red;
+}
+.btns span.show {
+  background-color: saddlebrown;
+}
+
+.hovering:hover {
+  background-color: darken;
+}
+
+.results {
+  margin: 20px 0 0;
+  padding: 10px;
+  background-color: white;
+}
+
+.results span span {
+  font-weight: bold;
+  color: #009688;
+}
+
+.keys {
+  display: block;
+}
